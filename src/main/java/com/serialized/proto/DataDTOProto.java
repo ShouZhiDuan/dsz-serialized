@@ -1,6 +1,11 @@
 package com.serialized.proto;
 
-public final class DataDTOProto {
+/**
+ * @Auther: ShouZhi@Duan
+ * @Date: 2022/4/6 12:23
+ * @Description:
+ */
+public class DataDTOProto {
     private DataDTOProto() {
     }
 
