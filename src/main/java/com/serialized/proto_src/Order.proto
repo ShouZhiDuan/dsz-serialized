@@ -1,9 +1,9 @@
 syntax = "proto3";
 
 option java_package = "com.serialized.model";
-option java_outer_classname = "UserProto";
+option java_outer_classname = "OrderProto";
 
-message User {
+message Order {
     string name = 1;
     string addr = 2;
 }

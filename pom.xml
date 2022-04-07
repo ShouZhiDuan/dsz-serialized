@@ -105,7 +105,7 @@
                        1、生成的Java文件目录
                        2、默认路径：${project.basedir}/target/generated-sources/protobuf/java
                     -->
-                    <outputDirectory>${project.basedir}/src/main/java/</outputDirectory>
+                   <!-- <outputDirectory>${project.basedir}/src/main/java/</outputDirectory>-->
                 </configuration>
                 <executions>
                     <execution>
