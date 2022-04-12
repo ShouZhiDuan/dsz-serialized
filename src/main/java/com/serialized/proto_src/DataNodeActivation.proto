@@ -4,6 +4,7 @@ option java_package = "com.nvxclouds.medusaskadicommon.dto.proto";
 option java_outer_classname = "DataNodeActivation";
 
 message DataNodeActivationRequestDTO {
-    string name = 1;
-    string addr = 2;
+    string dataNodeName = 1;
+    string url = 2;
+    string hardwareSignature = 3;
 }
