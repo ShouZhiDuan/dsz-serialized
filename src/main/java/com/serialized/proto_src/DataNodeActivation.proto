@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+option java_package = "com.nvxclouds.medusaskadicommon.dto.proto";
+option java_outer_classname = "DataNodeActivation";
+
+message DataNodeActivationRequestDTO {
+    string name = 1;
+    string addr = 2;
+}
